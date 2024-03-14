@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>projects</title>
+    <style>
+        .navbar{
+    display: flex;
+    align-items: center;
+    height: 12%;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav a:hover {
+    color: #050606;
+    transform: scale(1.1);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{ 
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: #d9a575;
+    padding:10px 18px;
+    margin: 30px 0;
+}
+        h1{
+            text-align: center;
+            color:black;
+            font-size: 50px;
+            font-style: 'Poppins',sans-serif;
+        }
+       
+        body{
+            width:100%;
+    height:100vh;
+    background-image: url(images/about.png);
+    background-position: center;
+    background-size: cover;
+    padding-right: 8%;
+       
+    }
+    h2,p{
+        color: white;
+        font-size:20px;
+
+    }
+   .card{
+        width:200px;
+        height:200px;
+        display: inline-block;
+        padding:15px 25px;
+        border-radius:10px;
+        margin:10px 25px;
+        cursor: pointer;
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/air.png);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+
+    }
+    .card:hover{
+        transform: scale(1.1);
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+    .dis{
+        width:200px;
+        height:200px;
+        display: inline-block;
+        padding:15px 25px;
+        border-radius:10px;
+        margin:10px 25px;
+        cursor: pointer;
+        background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/dise.png);
+        background-position: center;
+        background-size: cover;
+        text-align: center ;
+
+    }
+    .dis:hover{
+        transform: scale(1.1);
+        transition: color 0.3s ease, transform 0.3s ease;
+
+    }
+    .mov{
+        width:200px;
+        height:200px;
+        display: inline-block;
+        padding:15px 25px;
+        border-radius:10px;
+        margin:10px 25px;
+        cursor: pointer;
+        background-color: black;
+        background-position: center;
+        background-size: cover;
+        text-align: center ;
+    }
+    .mov:hover{
+        transform: scale(1.1);
+        transition: color 0.3s ease, transform 0.3s ease;
+
+    }
+
+
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    <h1>Project Details</h1>
+    <div class="card">
+        <h2 >Skyward sketchpad</h2>
+        <p>This project is a hand free gesture drawing where we can draw just by waving our hand</p>
+    </div>
+    <div class="dis">
+        <h2 >Detecting Parkinson's Disease</h2>
+        <p>Predecting whether person is affected with disease or not</p>
+
+    </div>
+    <div class="mov">
+        <h2 >Movie Recommendation System</h2>
+        <p>Recommendation System is a tool designed to predict/filter the items as per the user's behavior.</p>
+
+</body>
+    
